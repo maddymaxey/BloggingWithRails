@@ -1,0 +1,32 @@
+  <div class="index">
+
+  <div class="well sidebar-nav">
+      <%= render 'sidebar/index' %>
+    </div><!--/.well -->
+
+      <% @posts.each do |post| %>
+        <%= render "posts/show", post: post %>
+      <% end %>
+
+    <div class="container-fluid">
+      <div class="maintext">
+        <p> 
+          Retro PBR typewriter raw denim, semiotics brunch ethical vinyl ugh forage Pinterest Bushwick. Fanny pack food truck craft beer, fap 8-bit quinoa ugh. Fingerstache you probably haven't heard of them skateboard tote bag small batch squid bicycle rights, farm-to-table locavore McSweeney's direct trade Etsy. Ennui Bushwick beard cardigan. Bitters keffiyeh stumptown Wes Anderson Banksy, lo-fi blog PBR ugh 90's VHS. Sustainable trust fund direct trade typewriter. Banksy wolf vinyl Godard tumblr trust fund.
+
+Brunch seitan art party aesthetic farm-to-table put a bird on it. McSweeney's cray single-origin coffee, Bushwick pop-up american apparel Godard. Raw denim shabby chic helvetica, scenester beard Vice mustache aesthetic asymmetrical banjo Pinterest kitsch literally dreamcatcher lomo. Umami helvetica lomo fixie polaroid. Jean shorts Portland raw denim, put a bird on it deep v YOLO vegan artisan. Gluten-free trust fund PBR, farm-to-table 8-bit +1 wayfarers butcher photo booth. Fingerstache thundercats roof party, keytar fashion axe ugh intelligentsia.
+
+Austin meh readymade, semiotics 3 wolf moon cornhole hashtag swag literally kitsch pop-up raw denim you probably haven't heard of them Tonx. Dreamcatcher jean shorts hella, gluten-free organic tote bag disrupt Godard bicycle rights seitan ethical cardigan. Try-hard yr helvetica, Wes Anderson Bushwick biodiesel put a bird on it YOLO. 90's ennui yr, bitters skateboard cred twee locavore banh mi. +1 art party tofu lo-fi VHS disrupt, leggings trust fund YOLO american apparel semiotics ugh Brooklyn. Wes Anderson hoodie ethnic Austin. Gastropub whatever banh mi ugh, kitsch semiotics lomo pop-up you probably haven't heard of them Banksy DIY food truck tousled tumblr.
+
+Hoodie food truck you probably haven't heard of them, aesthetic try-hard mixtape bicycle rights narwhal High Life pork belly iPhone dreamcatcher. Keytar readymade wolf, trust fund pug cliche cardigan helvetica cray artisan gluten-free fap. Gluten-free gastropub Williamsburg, Neutra twee brunch fanny pack skateboard single-origin coffee Carles church-key butcher Schlitz readymade Echo Park. Neutra authentic flannel, ethical Godard letterpress hoodie photo booth bitters. Quinoa before they sold out organic keffiyeh, hoodie DIY gluten-free small batch. YOLO swag photo booth, +1 mustache street art mumblecore. Raw denim 90's mumblecore food truck four loko </p>
+
+      </div>
+
+
+
+        
+        <div class="span9">
+          <%= bootstrap_flash %>
+          
+        </div>
+      </div>
+      </div><!--/row-->

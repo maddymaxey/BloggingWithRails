@@ -1,0 +1,5 @@
+  <div class="archives">
+  <% @posts.each do |post| %>
+        <div class="posts"><%= render "posts/show", post: post %></div>
+      <% end %>
+  </div>
